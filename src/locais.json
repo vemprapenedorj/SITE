@@ -1,0 +1,254 @@
+{
+  "o-que-fazer": [
+    {
+      "id": "cachoeira-deus",
+      "title": "Cachoeira de Deus",
+      "category": "Natureza",
+      "image": "/assets/imagens/o-que-fazer/Cachoeira-de-Deus.jpg",
+      "description": "Uma das mais belas e famosas quedas d'água de Penedo.",
+      "fullInfo": "A Cachoeira de Deus é um dos pontos turísticos mais visitados. Com uma queda de aproximadamente 15 metros, forma um poço profundo e gelado, ideal para banhos revigorantes.",
+      "location": "Alto Penedo, Itatiaia - RJ",
+      "hours": "Acesso livre (recomenda-se luz do dia)",
+      "rating": 4.8,
+      "tripadvisorUrl": "https://www.tripadvisor.com.br/Attraction_Review-g2427181-d2424415-Reviews-Deus_Waterfall-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Trilha+da+Cachoeira+de+Deus+Penedo",
+      "tags": ["cachoeira", "natureza", "trilha", "banho", "rio", "água", "grátis", "foto", "família", "aventura", "alto penedo"],
+      "is_premium": false,
+      "slug": "cachoeira-de-deus",
+      "galeria": [
+        "/assets/imagens/o-que-fazer/Cachoeira-de-Deus.jpg",
+        "https://picsum.photos/seed/deus1/800/600",
+        "https://picsum.photos/seed/deus2/800/600",
+        "https://picsum.photos/seed/deus3/800/600"
+      ],
+      "descricao_longa": "A Cachoeira de Deus é o cartão-postal natural de Penedo. Localizada no Alto Penedo, oferece uma experiência única de conexão com a Mata Atlântica. Sua queda majestosa de 15 metros deságua em um poço cristalino que, embora gelado, é extremamente convidativo para um mergulho renovador. A trilha de acesso é curta e bem demarcada, permitindo que famílias com crianças e idosos possam aproveitar a beleza do local sem grandes dificuldades.",
+      "link_whatsapp": "https://wa.me/5524999999999",
+      "link_instagram": "https://instagram.com/penedonatureza",
+      "link_maps": "https://www.google.com/maps/search/?api=1&query=Cachoeira+de+Deus+Penedo"
+    },
+    {
+      "id": "pequena-finlandia",
+      "title": "Pequena Finlândia",
+      "category": "Cultura",
+      "image": "/assets/imagens/o-que-fazer/pequena-finlandia.jpg",
+      "description": "O coração comercial e cultural da vila, com arquitetura típica.",
+      "fullInfo": "Inaugurada em 1993, a Pequena Finlândia é um shopping a céu aberto que reproduz uma vila finlandesa.",
+      "location": "Rua das Velas, Penedo",
+      "hours": "10:00 - 22:00",
+      "rating": 4.7,
+      "is_premium": false,
+      "tags": ["papai noel", "compras", "artesanato", "chocolate", "finlândia", "centro", "turismo", "família", "crianças", "arquitetura", "sorvete"]
+    }
+  ],
+  "onde-ficar": [
+    {
+      "id": "pousada-lago",
+      "title": "Pousada do Lago",
+      "category": "Hospedagem",
+      "image": "/assets/imagens/onde-ficar/pousada-do-lago.jpg",
+      "description": "Comodidade e praticidade próxima ao centro, cercada por 19.000m² de natureza.",
+      "fullInfo": "Localizada próxima ao centro de Penedo, permite passeios a pé para fábricas de chocolate e a Casa do Papai Noel. Possui um belo lago natural, piscina com hidromassagem, salão de jogos, academia e ampla área verde. Combina o silêncio da natureza com a facilidade de acesso ao comércio local.",
+      "is_premium": false,
+      "slug": "pousada-do-lago",
+      "galeria": [
+        "/assets/imagens/onde-ficar/pousada-do-lago.jpg",
+        "https://picsum.photos/seed/lago1/800/600",
+        "https://picsum.photos/seed/lago2/800/600",
+        "https://picsum.photos/seed/lago3/800/600"
+      ],
+      "descricao_longa": "A Pousada do Lago é o refúgio perfeito para quem busca o equilíbrio entre a conveniência urbana e o sossego da natureza. Com uma área verde de 19 mil metros quadrados, nossos hóspedes desfrutam de um ambiente sereno com um lago natural encantador, ideal para relaxar e observar a fauna local. Nossa estrutura completa de lazer inclui piscina com hidromassagem, academia e salão de jogos, tudo pensado para tornar sua estadia em Penedo inesquecível.",
+      "link_whatsapp": "https://wa.me/5524981142566",
+      "link_instagram": "https://www.instagram.com/pousadadolagopenedo/",
+      "link_maps": "https://www.google.com/maps/search/?api=1&query=Pousada+do+Lago+Penedo",
+      "link_booking": "https://www.booking.com/hotel/br/pousada-do-lago-penedo.pt-br.html"
+    },
+    {
+      "id": "pousada-rainha-mata",
+      "title": "Pousada Rainha da Mata",
+      "category": "Hospedagem",
+      "image": "/assets/imagens/onde-ficar/pousada-rainha-da-mata.jpg",
+      "description": "Paz, sossego e contato exuberante com a natureza a apenas 800m do centro de Penedo.",
+      "fullInfo": "Localizada a apenas 800m do centro de Penedo, a Pousada Rainha da Mata oferece acesso fácil a pontos como Pequena Finlândia (1km). Com mais de 1.500m² de área verde, piscina com cascata, sauna a vapor e café da manhã artesanal.",
+      "is_premium": true,
+      "badge": "Recomendado",
+      "slug": "pousada-rainha-da-mata",
+      "galeria": [
+        "/assets/imagens/onde-ficar/pousada-rainha-da-mata.jpg",
+        "https://images3.motor-reserva.com.br/curl/storage/222/0etGKH92KizBcZbvsV0FVycTCrq4lzmgY0jE9db2.webp",
+        "https://images3.motor-reserva.com.br/curl/storage/222/VlOotE3vS6mLA2W3vkKRmIndR0IGJTouwfrxPGKJ.webp",
+        "https://images3.motor-reserva.com.br/curl/storage/222/696piQSRxpFuphMl5dLJAHIIMHCDXhwwo63DDcBO.webp"
+      ],
+      "descricao_longa": "Localizada a apenas 800m do centro de Penedo, na Pousada Rainha da Mata a natureza dita o ritmo. Oferecemos um refúgio exclusivo onde o canto dos pássaros e o som relaxante do rio que serpenteia nossa propriedade criam a trilha sonora perfeita para seu descanso. Nossa vasta área verde abriga uma árvore centenária majestosa, enquanto nossa infraestrutura conta com piscina com cascata e um café da manhã artesanal preparado com carinho para começar seu dia da melhor forma possível.",
+      "link_whatsapp": "https://wa.me/5524993111367",
+      "link_instagram": "https://www.instagram.com/pousadarainhadamata/",
+      "link_maps": "https://www.google.com/maps/search/?api=1&query=Pousada+Rainha+da+Mata+Penedo",
+      "tripadvisorUrl": "https://www.tripadvisor.com.br/Hotel_Review-g2427181-d7359137-Reviews-Pousada_Rainha_Da_Mata-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
+      "link_video": "https://www.instagram.com/reel/DR43wyHEQVH/"
+    },
+    {
+      "id": "pousada-aurora-mantiqueira",
+      "title": "Pousada Aurora da Mantiqueira",
+      "category": "Hospedagem",
+      "image": "/assets/imagens/onde-ficar/pousada-aurora-da-mantiqueira.jpg",
+      "description": "A pousada mais bem avaliada de Penedo (Nota 9,8). Refúgio dos sonhos a apenas 1,2km do centro com café artesanal e alma familiar.",
+      "fullInfo": "Localizada estrategicamente perto dos principais atrativos (como a Pequena Finlândia, Casa do Papai Noel, Fábrica de Chocolate e centrinho), a pousada proporciona o equilíbrio ideal entre tranquilidade e conveniência. Oferecemos piscina ao ar livre com vista panorâmica das montanhas, jardim preservado e estacionamento privativo grátis. Nossas acomodações contam com ar-condicionado, TV de tela plana, e opções exclusivas com varanda privativa ou banheira de hidromassagem. Um dos maiores destaques da experiência é o nosso café da manhã artesanal, preparado com carinho a partir de autênticas receitas de família.",
+      "is_premium": true,
+      "badge": "Recomendado",
+      "slug": "pousada-aurora-da-mantiqueira",
+      "galeria": [
+        "/assets/imagens/onde-ficar/pousada-aurora-da-mantiqueira.jpg",
+        "https://auroradamantiqueirapenedo.com.br/images/pedro-luz---img_6739.webp",
+        "https://auroradamantiqueirapenedo.com.br/images/pedro-luz---img_6743.webp",
+        "https://auroradamantiqueirapenedo.com.br/images/pedro-luz---img_6668.webp"
+      ],
+      "descricao_longa": "Nascida do sonho de Sandro e sua família de oferecer um refúgio de paz na serra, a Pousada Aurora da Mantiqueira combina silêncio e natureza a apenas 1,2km do centro. Com nota 9,8 no Booking.com e mais de 100 avaliações 5 estrelas, somos o destino perfeito para casais em uma viagem romântica, famílias que buscam desacelerar e viajantes que não abrem mão de uma estadia pet friendly com seus cães.",
+      "link_whatsapp": "https://wa.me/5524992576384",
+      "link_instagram": "https://www.instagram.com/pousadaauroradamantiqueira/",
+      "link_maps": "https://www.google.com/maps/search/?api=1&query=Pousada+Aurora+da+Mantiqueira+Penedo",
+      "link_video": "https://www.instagram.com/reel/DQSV0FDAQf3/"
+    }
+  ],
+  "gastronomia": [
+    {
+      "id": "jardim-secreto",
+      "title": "Jardim Secreto",
+      "category": "Gastronomia",
+      "image": "/assets/imagens/gastronomia/jardim-secreto.jpg",
+      "description": "Romantismo e alta gastronomia em ambiente intimista.",
+      "fullInfo": "O Jardim Secreto é o destino perfeito para casais que buscam uma experiência gastronômica refinada em Penedo.",
+      "is_premium": false,
+      "slug": "jardim-secreto",
+      "galeria": [
+        "/assets/imagens/gastronomia/jardim-secreto.jpg",
+        "https://picsum.photos/seed/jardim1/800/600",
+        "https://picsum.photos/seed/jardim2/800/600",
+        "https://picsum.photos/seed/jardim3/800/600"
+      ],
+      "descricao_longa": "O Restaurante Jardim Secreto oferece uma das experiências mais exclusivas e românticas da região Serrana. Localizado em um casarão histórico cercado por jardins preservados, nosso menu autoral combina ingredientes locais com técnicas da alta gastronomia contemporânea. Cada prato é uma obra de arte pensada para surpreender e proporcionar momentos inesquecíveis, seja em um jantar à luz de velas ou em um almoço ensolarado em nosso deck externo.",
+      "link_whatsapp": "https://wa.me/5524777777777",
+      "link_instagram": "https://instagram.com/restaurante_jardimsecreto",
+      "link_maps": "https://www.google.com/maps/search/?api=1&query=Restaurante+Jardim+Secreto+Penedo"
+    },
+    {
+      "id": "casa-do-fritz",
+      "title": "Casa do Fritz",
+      "category": "Gastronomia",
+      "image": "/assets/imagens/gastronomia/casa-do-fritz.jpg",
+      "description": "A tradição alemã e a melhor choperia artesanal de Penedo.",
+      "fullInfo": "Referência em gastronomia alemã no centro de Penedo, a Casa do Fritz é famosa por seus pratos típicos como o Kassler e o Eisbein, acompanhados pelo chopp artesanal fabricado na própria vila.",
+      "is_premium": false,
+      "slug": "casa-do-fritz",
+      "galeria": [
+        "/assets/imagens/gastronomia/casa-do-fritz.jpg",
+        "https://picsum.photos/seed/fritz1/800/600",
+        "https://picsum.photos/seed/fritz2/800/600",
+        "https://picsum.photos/seed/fritz3/800/600"
+      ],
+      "descricao_longa": "A Casa do Fritz é uma parada obrigatória para os amantes da boa mesa e do chopp gelado. Localizado estrategicamente no burburinho de Penedo, nosso restaurante transporta você diretamente para a Alemanha através de sabores autênticos e um ambiente rústico encantador. Saboreie nosso premiado chopp Fritz, produzido artesanalmente com a pureza das águas da serra, enquanto desfruta de uma experiência gastronômica que é tradição na nossa região há décadas.",
+      "link_whatsapp": "https://wa.me/5524888888888",
+      "link_instagram": "https://instagram.com/casadofritz",
+      "link_maps": "https://www.google.com/maps/search/?api=1&query=Casa+do+Fritz+Penedo"
+    },
+    {
+      "id": "casa-da-picanha",
+      "title": "Casa da Picanha",
+      "category": "Gastronomia",
+      "image": "/assets/imagens/gastronomia/casa-da-picanha.jpg",
+      "description": "Cortes nobres e ambiente familiar com 2 unidades em Penedo.",
+      "fullInfo": "Com 2 unidades em Penedo, somos especializados em cortes nobres, com destaque absoluto para a picanha servida na chapa, acompanhada de guarnições tradicionais e fartas. Ambiente perfeito para famílias.",
+      "is_premium": true,
+      "badge": "Selo Ouro",
+      "slug": "casa-da-picanha",
+      "galeria": [
+        "/assets/imagens/gastronomia/casa-da-picanha.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/61/d2/1b/restaurante-mais-completo.jpg?w=1000&h=-1&s=1",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/87/16/f4/casa-da-picanha-penedo.jpg?w=1000&h=-1&s=1",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/18/b7/db/photo0jpg.jpg?w=1000&h=-1&s=1"
+      ],
+      "descricao_longa": "A Casa da Picanha, agora com 2 unidades para melhor atender nossos clientes, é o ponto de encontro obrigatório para quem aprecia uma carne de qualidade superior em um ambiente acolhedor. Nossa picanha na chapa é famosa por sua suculência e sabor inigualável, sempre servida com acompanhamentos que remetem à melhor tradição da culinária brasileira. Com um espaço dedicado às crianças e um atendimento que faz você se sentir em casa, somos a escolha ideal para o seu almoço ou jantar em família em Penedo.",
+      "link_whatsapp": "https://wa.me/5524999999999",
+      "link_instagram": "https://www.instagram.com/casadapicanhapenedo_rj/",
+      "link_maps": "https://www.google.com/maps/search/?api=1&query=Casa+da+Picanha+Penedo",
+      "link_video": "https://www.instagram.com/reel/DZyAR9NDaJH/"
+    },
+    {
+      "id": "botegare",
+      "title": "Botegare",
+      "category": "Gastronomia",
+      "image": "/assets/imagens/gastronomia/botegare-penedo.jpg",
+      "description": "Gastronomia Contemporânea e de fusão com influências europeias.",
+      "fullInfo": "Restaurante de gastronomia Contemporânea e de fusão. Nosso cardápio privilegia clássicos da Itália, França, Portugal e Espanha.",
+      "is_premium": false,
+      "slug": "botegare",
+      "galeria": [
+        "/assets/imagens/gastronomia/botegare-penedo.jpg",
+        "https://picsum.photos/seed/botegare1/800/600",
+        "https://picsum.photos/seed/botegare2/800/600",
+        "https://picsum.photos/seed/botegare3/800/600"
+      ],
+      "descricao_longa": "O Botegare traz para Penedo uma proposta gastronômica cosmopolita e arrojada. Especializado em culinária contemporânea de fusão, fundimos a tradição de clássicos europeus com a riqueza de ingredientes brasileiros, resultando em pratos que são verdadeiras experiências sensoriais. Nossa adega aberta convida os clientes a escolherem entre mais de 60 rótulos selecionados, tudo isso em um ambiente amplo onde a natureza de Penedo é a grande protagonista.",
+      "link_whatsapp": "https://wa.me/552435120520",
+      "link_instagram": "https://www.instagram.com/botegarepenedo/",
+      "link_maps": "https://www.google.com/maps/search/?api=1&query=Botegare+Penedo"
+    },
+    {
+      "id": "tonttulakki-suklaat",
+      "title": "Tonttulakki Suklaat",
+      "category": "Gastronomia",
+      "categoria_aba": "gastronomia",
+      "image": "/assets/imagens/gastronomia/tonttulakki-Suklaat.jpg",
+      "imagem_url": "/assets/imagens/gastronomia/tonttulakki-Suklaat.jpg",
+      "description": "Chocolates artesanais com o verdadeiro sabor finlandês.",
+      "fullInfo": "Chocolates artesanais com o verdadeiro sabor finlandês.",
+      "location": "Rua das velas 100 – Penedo",
+      "instagram": "https://www.instagram.com/chocolatestonttulakki/",
+      "link_instagram": "https://www.instagram.com/chocolatestonttulakki/",
+      "tripadvisorUrl": "https://www.tripadvisor.com.br/Restaurant_Review-g2348871-d5647708-Reviews-Tonttulakki-Itatiaia_State_of_Rio_de_Janeiro.html",
+      "is_premium": false
+    },
+    {
+      "id": "lugano-penedo",
+      "title": "Lugano Penedo",
+      "category": "Gastronomia",
+      "categoria_aba": "gastronomia",
+      "image": "/assets/imagens/gastronomia/lugano-Penedo.jpg",
+      "imagem_url": "/assets/imagens/gastronomia/lugano-Penedo.jpg",
+      "description": "A tradição do chocolate de Gramado agora em Penedo.",
+      "fullInfo": "A tradição do chocolate de Gramado agora em Penedo.",
+      "location": "Av. das Mangueiras, 1581 – Penedo",
+      "instagram": "https://www.instagram.com/chocolatelugano.penedo",
+      "link_instagram": "https://www.instagram.com/chocolatelugano.penedo",
+      "tripadvisorUrl": "https://www.tripadvisor.com.br/Restaurant_Review-g2427181-d28156070-Reviews-Lugano_Gramado_Penedo-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
+      "is_premium": false
+    },
+    {
+      "id": "lolita-penedo",
+      "title": "Lolita Penedo",
+      "category": "Gastronomia",
+      "categoria_aba": "gastronomia",
+      "image": "/assets/imagens/gastronomia/lolita-Penedo.jpg",
+      "imagem_url": "/assets/imagens/gastronomia/lolita-Penedo.jpg",
+      "description": "Cafeteria charmosa com doces e sobremesas inesquecíveis.",
+      "fullInfo": "Cafeteria charmosa com doces e sobremesas inesquecíveis.",
+      "location": "Avenida das Mangueiras, 1645, Loja 2, Penedo",
+      "instagram": "https://www.instagram.com/lolitapenedo/",
+      "link_instagram": "https://www.instagram.com/lolitapenedo/",
+      "tripadvisorUrl": "https://www.tripadvisor.com.br/Restaurant_Review-g2427181-d23122914-Reviews-Lolita_Penedo-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
+      "is_premium": false
+    },
+    {
+      "id": "kahvila-cafe",
+      "title": "Kahvila Café",
+      "category": "Gastronomia",
+      "categoria_aba": "gastronomia",
+      "image": "/assets/imagens/gastronomia/kahvila-Penedo.jpg",
+      "imagem_url": "/assets/imagens/gastronomia/kahvila-Penedo.jpg",
+      "description": "Ambiente acolhedor para o seu café da tarde.",
+      "fullInfo": "Ambiente acolhedor para o seu café da tarde.",
+      "location": "Av. das Mangueiras, 1815 - Loja 1, Penedo",
+      "instagram": "https://www.instagram.com/kahvilacafe.br/",
+      "link_instagram": "https://www.instagram.com/kahvilacafe.br/",
+      "is_premium": false
+    }
+  ]
+}
