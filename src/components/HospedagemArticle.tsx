@@ -322,6 +322,7 @@ export function HospedagemArticle({ handleSelectArticle }: HospedagemArticleProp
             <p className="text-lg leading-relaxed">
               Mais do que locais de repouso, as pousadas de Penedo oferecem cenários deslumbrantes, aconchego em cada pequeno detalhe e a amigável hospitalidade de serra para que você desfrute cada instante de sua estadia.
             </p>
+            <p className="text-gray-400 text-sm mt-6 italic">Publicado em 23/06/2026.</p>
           </div>
           
           <div className="mb-4 md:mb-8 md:mb-16 rounded-[3rem] overflow-hidden shadow-2xl relative w-full h-96 md:h-[32rem]">

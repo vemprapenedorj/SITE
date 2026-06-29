@@ -204,7 +204,10 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
         "/assets/imagens/o-que-fazer/Expedicao-raizes-da-mantiqueira.png",
         "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/8e/26/36/travessia-serra-negra.jpg?w=1100&h=-1&s=1",
         "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/43/29/63/nascer-do-sol-pedra-selada.jpg?w=1100&h=-1&s=1",
-        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/5e/f0/85/tour-personalizado-parque.jpg?w=1200&h=-1&s=1"
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/5e/f0/85/tour-personalizado-parque.jpg?w=1200&h=-1&s=1",
+        "/assets/imagens/o-que-fazer/expedicao-raizes-jeep.jpg",
+        "/assets/imagens/o-que-fazer/expedicao-raizes-trail.jpg",
+        "/assets/imagens/o-que-fazer/expedicao-raizes-waterfall.jpg"
       ],
       tags: ["4x4", "passeios", "trilhas", "cachoeiras", "aventura", "natureza", "ecoturismo", "família", "guia"]
     },
@@ -268,7 +271,7 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       whatsapp: "24998163679",
       instagram: "https://www.instagram.com/hotelbertell/",
       tripadvisorUrl: "https://www.tripadvisor.com.br/Hotel_Review-g2427181-d1832392-Reviews-Hotel_Bertell-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
-      link_booking: "https://www.booking.com/hotel/br/bertell-penedo.pt-br.html",
+      link_booking: "https://www.booking.com/hotel/br/bertell-ltda.pt-br.html",
       tags: ["piscina", "sauna", "rio", "natureza", "pet friendly", "academia", "salão de jogos", "spa", "hidromassagem", "família", "romântico", "tranquilidade"]
     },
     {
@@ -283,7 +286,7 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       whatsapp: "21967553210",
       instagram: "https://www.instagram.com/hotel.britannia/",
       tripadvisorUrl: "https://www.tripadvisor.com.br/Hotel_Review-g2427181-d2305191-Reviews-Hotel_Britannia-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
-      link_booking: "https://www.booking.com/hotel/br/britannia.pt-br.html",
+      link_booking: "https://www.booking.com/hotel/br/dom-britannia.pt-br.html",
       tags: ["britânico", "temático", "centro", "piscina", "chá da tarde", "acolhedor", "estilo clássico"]
     },
     {
@@ -298,7 +301,7 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       whatsapp: "24992519189",
       instagram: "https://www.instagram.com/hotelcasaencantadapenedo/",
       tripadvisorUrl: "https://www.tripadvisor.com.br/Hotel_Review-g2427181-d2627602-Reviews-Casa_Encantada_Hotel_Suites-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
-      link_booking: "https://www.booking.com/hotel/br/casa-encantada-penedo.pt-br.html",
+      link_booking: "https://www.booking.com/hotel/br/casa-encantada.pt-br.html",
       tags: ["colonial", "centro", "piscina", "hidromassagem", "rio", "aconchegante", "família", "casal"]
     },
     {
@@ -465,7 +468,7 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       whatsapp: "24981783018",
       instagram: "https://www.instagram.com/pousadareservapenedo/",
       tripadvisorUrl: "https://www.tripadvisor.com.br/Hotel_Review-g2427181-d2669276-Reviews-Pousada_Reserva_Penedo-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
-      link_booking: "https://www.booking.com/hotel/br/reserva-penedo.pt-br.html",
+      link_booking: "https://www.booking.com/hotel/br/pousada-reserva-penedo.pt-br.html",
       tags: ["natureza", "rio", "tranquilidade", "cascata", "piscina", "sauna", "café da manhã", "silêncio"]
     },
     {
@@ -480,7 +483,7 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       whatsapp: "24988058755",
       instagram: "https://www.instagram.com/santafepenedo/",
       tripadvisorUrl: "https://www.tripadvisor.com.br/Hotel_Review-g2427181-d2475338-Reviews-Pousada_Santa_Fe_de_Penedo-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
-      link_booking: "https://www.booking.com/hotel/br/santa-fe-penedo.pt-br.html",
+      link_booking: "https://www.booking.com/hotel/br/pousada-santa-fe-penedo.pt-br.html",
       tags: ["piscina panorâmica", "hidromassagem", "spa", "massagem", "romântico", "casal", "natureza", "serra da mantiqueira", "vale do ermitão", "aconchego", "tranquilidade"]
     },
     {
@@ -510,7 +513,7 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       whatsapp: "24988492525",
       instagram: "https://www.instagram.com/terraco_penedo/",
       tripadvisorUrl: "https://www.tripadvisor.com.br/Hotel_Review-g2427181-d2591083-Reviews-Pousada_Terraco_Penedo-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
-      link_booking: "https://www.booking.com/hotel/br/terraco.pt-br.html",
+      link_booking: "https://www.booking.com/hotel/br/pousada-terraasso-penedo.pt-br.html",
       tags: ["vista", "serra da índia", "custo-benefício", "piscina", "hidromassagem", "sauna", "rústico", "natureza", "casal", "café colonial"]
     },
     {
@@ -540,7 +543,7 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       whatsapp: "2435120520",
       instagram: "https://www.instagram.com/vert_hotelspa/",
       tripadvisorUrl: "https://www.tripadvisor.com.br/Hotel_Review-g2427181-d32848923-Reviews-Vert_Hotel_Spa-Penedo_Itatiaia_State_of_Rio_de_Janeiro.html",
-      link_booking: "https://www.booking.com/hotel/br/vert-spa.pt-br.html",
+      link_booking: "https://www.booking.com/hotel/br/vert-penedo.pt-br.html",
       tags: ["spa", "piscina aquecida", "sauna", "massagem", "boutique", "premium", "natureza", "bem-estar", "romântico", "casal"]
     },
     {
@@ -999,7 +1002,8 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       image: "/assets/imagens/blog/penedo-guia/capa.jpg",
       description: "Descubra tudo sobre Penedo RJ: atrações, cachoeiras, gastronomia e dicas completas.",
       fullInfo: "Descubra tudo sobre Penedo RJ: atrações, cachoeiras, gastronomia e dicas completas para sua viagem.",
-      tags: ["guia", "penedo", "dicas", "viagem"]
+      tags: ["guia", "penedo", "dicas", "viagem"],
+      date: "20/06/2026"
     },
     {
       id: 'cachoeiras-penedo',
@@ -1008,7 +1012,8 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       image: "/assets/imagens/blog/cachoeiras-penedo/Introducao.jpg",
       description: "Um guia completo pelas águas cristalinas de Penedo. Descubra os melhores poços e quedas.",
       fullInfo: "Explore as melhores cachoeiras de Penedo RJ. Dicas de acesso, segurança e roteiros para relaxar.",
-      tags: ["cachoeiras", "natureza", "penedo", "rio"]
+      tags: ["cachoeiras", "natureza", "penedo", "rio"],
+      date: "21/06/2026"
     },
     {
       id: 'restaurantes',
@@ -1017,16 +1022,18 @@ const DETAILS_DATA: Record<string, DetailItem[]> = {
       image: "/assets/imagens/blog/melhores-restaurantes/intro.jpg",
       description: "Onde comer bem na cidade: das trutas famosas aos cafés coloniais.",
       fullInfo: "Onde comer bem na cidade: das trutas famosas aos cafés coloniais.",
-      tags: ["restaurantes", "gastronomia", "comida"]
+      tags: ["restaurantes", "gastronomia", "comida"],
+      date: "22/06/2026"
     },
     {
       id: 'melhores-hospedagens',
       title: "Onde se Hospedar em Penedo: 5 Pousadas e Hotéis Encantadores",
       category: "Hospedagem",
       image: "/assets/imagens/blog/melhores-hospedagens/intro.jpg",
-      description: "Um guia de hospedagem em Penedo com as melhores pousadas e chalés. Lareiras aconchegantes, hidromassagem e vistas incríveis. Publicado em 23/06/2026.",
+      description: "Um guia de hospedagem em Penedo com as melhores pousadas e chalés. Lareiras aconchegantes, hidromassagem e vistas incríveis.",
       fullInfo: "Descubra as pousadas e hotéis mais charmosos e recomendados de Penedo para uma estadia inesquecível.",
-      tags: ["hospedagem", "pousadas", "hotéis", "romântico"]
+      tags: ["hospedagem", "pousadas", "hotéis", "romântico"],
+      date: "23/06/2026"
     }
   ]
 };
@@ -1089,7 +1096,8 @@ function PremiumCarousel({ onNavigatePremium }: { onNavigatePremium: (slug: stri
           renderItem={(item) => (
             <motion.div
               whileHover={{ y: -8 }}
-              className="bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 flex flex-col h-full group"
+              className="bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-gray-100 flex flex-col h-full group cursor-pointer"
+              onClick={() => ((item as any).slug || item.id) && onNavigatePremium((item as any).slug || item.id)}
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-gray-50">
                 {['Pousada Aurora da Mantiqueira', 'Pousada Rainha da Mata', 'Expedição Raízes da Mantiqueira', 'Hotel Girassol', 'Águia de Penedo', 'Rota dos Passeios', 'Trilhando Penedo Ecoturismo'].includes(item.title) && (
@@ -1303,6 +1311,15 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'auto' });
   };
 
+  const handleOpenDetail = (item: DetailItem) => {
+    const isPremium = item.isPremium || (item as any).is_premium;
+    if (isPremium) {
+      navigate('premium-detail', item.slug || item.id);
+    } else {
+      setSelectedItem(item);
+    }
+  };
+
   const acceptCookies = () => {
     localStorage.setItem('cookie-consent', 'true');
     setShowCookies(false);
@@ -1413,7 +1430,7 @@ export default function App() {
             >
               <HomePage 
                 onNavigate={navigate} 
-                onOpenDetail={setSelectedItem} 
+                onOpenDetail={handleOpenDetail} 
                 onSelectArticle={setActiveBlogArticle}
                 onNavigatePremium={(slug) => navigate('premium-detail', slug)}
               />
@@ -1426,7 +1443,7 @@ export default function App() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <WhatToDoPage onOpenDetail={setSelectedItem} onGoBack={() => navigate('home')} />
+              <WhatToDoPage onOpenDetail={handleOpenDetail} onGoBack={() => navigate('home')} />
             </motion.div>
           )}
           {currentPage === 'onde-ficar' && (
@@ -1436,7 +1453,7 @@ export default function App() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <WhereToStayPage onOpenDetail={setSelectedItem} onGoBack={() => navigate('home')} />
+              <WhereToStayPage onOpenDetail={handleOpenDetail} onGoBack={() => navigate('home')} />
             </motion.div>
           )}
           {currentPage === 'gastronomia' && (
@@ -1446,7 +1463,7 @@ export default function App() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <GastronomyPage onOpenDetail={setSelectedItem} onGoBack={() => navigate('home')} />
+              <GastronomyPage onOpenDetail={handleOpenDetail} onGoBack={() => navigate('home')} />
             </motion.div>
           )}
           {currentPage === 'compras' && (
@@ -1456,7 +1473,7 @@ export default function App() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <ShoppingPage onOpenDetail={setSelectedItem} onGoBack={() => navigate('home')} />
+              <ShoppingPage onOpenDetail={handleOpenDetail} onGoBack={() => navigate('home')} />
             </motion.div>
           )}
           {currentPage === 'contato' && (
@@ -1476,7 +1493,7 @@ export default function App() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
-              <BlogPage onOpenDetail={setSelectedItem} onNavigate={navigate} activeArticle={activeBlogArticle} onSelectArticle={setActiveBlogArticle} />
+              <BlogPage onOpenDetail={handleOpenDetail} onNavigate={navigate} activeArticle={activeBlogArticle} onSelectArticle={setActiveBlogArticle} />
             </motion.div>
           )}
           {currentPage === 'premium-detail' && (
@@ -2022,21 +2039,39 @@ function PremiumDetailPage({ slug, onNavigate }: { slug: string, onNavigate: (pa
             <ArrowRight className="rotate-180" size={20} /> Voltar ao Início
           </button>
           
-          <h1 className="text-4xl md:text-6xl font-black text-penedo-forest mb-4 md:mb-8 tracking-tighter leading-tight drop-shadow-sm">
-            {item.title}
-          </h1>
+          <div className="flex items-center gap-4 mb-6 md:mb-8 text-left">
+            {item.galeria?.[0] && (
+              <div className="w-14 h-14 md:w-20 md:h-20 rounded-full border-2 border-penedo-gold shadow-md shrink-0 bg-white overflow-hidden flex items-center justify-center p-2 md:p-3">
+                <img 
+                  src={item.galeria[0]} 
+                  alt={`Logo ${item.title}`} 
+                  className="w-full h-full object-contain" 
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+            )}
+            <h1 className="text-4xl md:text-6xl font-black text-penedo-forest tracking-tighter leading-none drop-shadow-sm">
+              {item.title}
+            </h1>
+          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4 md:mb-8">
-            {item.galeria?.map((img: string, idx: number) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-4 md:mb-8">
+            {item.galeria?.slice(1, 7).map((img: string, idx: number) => (
               <motion.div 
                 key={idx}
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: idx * 0.1 }}
                 onClick={() => setSelectedImage(img)}
-                className="aspect-[4/3] rounded-3xl overflow-hidden shadow-lg border-4 border-white cursor-pointer"
+                className="aspect-[4/3] rounded-[2rem] overflow-hidden shadow-xl border-4 border-white cursor-pointer group/img"
               >
-                <img src={img} alt={`${item.title} ${idx + 1}`} loading={idx > 1 ? "lazy" : "eager"} className={`w-full h-full ${(item.id === 'pousada-aurora-mantiqueira' || item.slug === 'pousada-aurora-da-mantiqueira' || item.id === 'casa-da-picanha' || item.slug === 'casa-da-picanha' || item.id === 'expedicao-raizes' || item.slug === 'expedicao-raizes' || item.id === 'pousada-rainha-da-mata' || item.id === 'pousada-rainha-mata' || item.slug === 'pousada-rainha-da-mata') && idx === 0 ? 'object-contain bg-white' : 'object-cover'}`} />
+                <img 
+                  src={img} 
+                  alt={`${item.title} ${idx + 1}`} 
+                  loading={idx > 2 ? "lazy" : "eager"} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover/img:scale-110 group-hover/img:rotate-1"
+                  referrerPolicy="no-referrer"
+                />
               </motion.div>
             ))}
           </div>
@@ -2092,33 +2127,70 @@ function PremiumDetailPage({ slug, onNavigate }: { slug: string, onNavigate: (pa
             {item.link_video ? (
               (() => {
                 const videoData = getVideoEmbedData(item.link_video);
+                const isInstagram = videoData.platform === 'instagram';
                 return (
-                  <div className="flex flex-col-reverse md:flex-row gap-6 md:gap-8 items-start mb-6 md:mb-12">
-                    <div className="flex-1 w-full">
-                      <div className="bg-penedo-mint/5 p-8 rounded-[2.5rem] border-l-8 border-penedo-gold h-full">
-                        <p className="text-2xl md:text-3xl font-black text-penedo-forest leading-tight italic">
+                  <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center mb-6 md:mb-12">
+                    <div className="flex-1 w-full text-left">
+                      <div className="bg-penedo-mint/5 p-8 md:p-12 rounded-[2.5rem] border-l-8 border-penedo-gold shadow-sm">
+                        <p className="text-xl md:text-2xl font-bold text-penedo-forest leading-relaxed italic">
                           "{item.descricao_longa || item.description}"
                         </p>
                       </div>
                     </div>
-                    <div className="w-full md:max-w-[320px] shrink-0">
-                      <div className={`w-full ${videoData.platform === 'instagram' ? 'min-h-[540px]' : 'aspect-[9/16]'} rounded-[2.5rem] overflow-hidden shadow-lg border-4 border-white bg-black`}>
-                        <iframe
-                          src={videoData.url}
-                          title={`Vídeo - ${item.title}`}
-                          className="w-full h-full"
-                          style={videoData.platform === 'instagram' ? { minHeight: '540px', border: 'none' } : { border: 'none' }}
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          allowFullScreen
-                        ></iframe>
+                    
+                    <div className="w-full md:max-w-[340px] shrink-0 mx-auto bg-white rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white">
+                      {/* Custom Instagram Header */}
+                      <div className="p-4 flex items-center justify-between bg-white border-b border-gray-100">
+                        <div className="flex items-center gap-2">
+                          <div className="w-8 h-8 rounded-full border border-penedo-gold bg-white overflow-hidden flex items-center justify-center p-1">
+                            <img 
+                              src={item.galeria?.[0]} 
+                              alt={item.title} 
+                              className="w-full h-full object-contain" 
+                            />
+                          </div>
+                          <div className="text-left">
+                            <p className="font-bold text-gray-800 text-xs leading-none">{item.title}</p>
+                            <p className="text-[10px] text-gray-400">Curadoria Premium</p>
+                          </div>
+                        </div>
+                        <a 
+                          href={instagramUrl} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="flex items-center gap-1 px-3 py-1.5 bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 text-white rounded-full font-black text-[9px] uppercase tracking-wider transition-all"
+                        >
+                          Instagram
+                        </a>
+                      </div>
+
+                      {/* Video Content */}
+                      <div className="relative w-full aspect-[9/16] bg-black overflow-hidden flex items-center justify-center">
+                        {isInstagram ? (
+                          <iframe
+                            src={`${videoData.url}?muted=1`}
+                            title={`Vídeo - ${item.title}`}
+                            className="absolute w-full h-[calc(100%+140px)] -top-[50px] left-0 border-none scale-[1.01]"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                          ></iframe>
+                        ) : (
+                          <iframe
+                            src={videoData.url}
+                            title={`Vídeo - ${item.title}`}
+                            className="w-full h-full border-none"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                          ></iframe>
+                        )}
                       </div>
                     </div>
                   </div>
                 );
               })()
             ) : (
-              <div className="bg-penedo-mint/5 p-8 rounded-[2.5rem] border-l-8 border-penedo-gold mb-6 md:mb-12">
-                <p className="text-2xl md:text-3xl font-black text-penedo-forest leading-tight italic">
+              <div className="bg-penedo-mint/5 p-8 md:p-12 rounded-[2.5rem] border-l-8 border-penedo-gold mb-6 md:mb-12 shadow-sm text-left">
+                <p className="text-xl md:text-2xl font-bold text-penedo-forest leading-relaxed italic">
                   "{item.descricao_longa || item.description}"
                 </p>
               </div>
@@ -2146,7 +2218,7 @@ function PremiumDetailPage({ slug, onNavigate }: { slug: string, onNavigate: (pa
                 
                 <div className="p-6 bg-penedo-forest rounded-3xl text-white shadow-lg">
                   <h4 className="font-bold mb-2 flex items-center gap-2">
-                    <ShieldCheck size={18} className="text-penedo-gold" /> Garantia Penedo
+                    <ShieldCheck size={18} className="text-penedo-gold" /> Curadoria Premium
                   </h4>
                   <p className="text-xs opacity-80">Este estabelecimento faz parte da nossa curadoria Premium, garantindo excelência em atendimento e qualidade.</p>
                 </div>
@@ -3161,6 +3233,7 @@ function BlogPage({ onOpenDetail, onNavigate, activeArticle, onSelectArticle }: 
                 <p className="text-gray-600 mb-6 md:mb-12 text-xl max-w-2xl mx-auto">
                   Quer aproveitar ao máximo sua viagem e descobrir todos os segredos da Finlândia Brasileira?
                 </p>
+                <p className="text-gray-400 text-sm mb-8 italic">Publicado em 21/06/2026.</p>
                 <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
                   <button 
                     onClick={() => handleSelectArticle('penedo-guia')}
@@ -3189,11 +3262,13 @@ function BlogPage({ onOpenDetail, onNavigate, activeArticle, onSelectArticle }: 
           <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-3xl md:text-4xl font-black mb-6 uppercase tracking-tight">Tornamos sua visita inesquecível</h2>
             <p className="text-lg text-white/70 mb-6 md:mb-10 max-w-xl mx-auto">Descubra os melhores passeios, restaurantes e experiências em um só lugar.</p>
-            <BlogPostCTA 
-              label="Falar com Especialista" 
-              onClick={() => window.open('https://api.whatsapp.com/send?phone=5524992087767&text=Olá,%20vim%20do%20site%20Vem%20Pra%20Penedo%20e%20gostaria%20de%20mais%20informações!')} 
-              primary={true} 
-            />
+            <div className="flex justify-center">
+              <BlogPostCTA 
+                label="Falar com Especialista" 
+                onClick={() => window.open('https://api.whatsapp.com/send?phone=5524992087767&text=Olá,%20vim%20do%20site%20Vem%20Pra%20Penedo%20e%20gostaria%20de%20mais%20informações!')} 
+                primary={true} 
+              />
+            </div>
           </div>
         </section>
       </motion.div>
@@ -3244,7 +3319,7 @@ function BlogPage({ onOpenDetail, onNavigate, activeArticle, onSelectArticle }: 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="mt-8"
+              className="mt-8 flex justify-center"
             >
               <BlogPostCTA label="Ver hospedagens em Penedo" onClick={() => scrollToAnchor('onde-se-hospedar')} />
             </motion.div>
@@ -3448,7 +3523,7 @@ function BlogPage({ onOpenDetail, onNavigate, activeArticle, onSelectArticle }: 
                 </div>
               ))}
             </div>
-            <BlogPostCTA label="Ver mais restaurantes" onClick={() => onNavigate('gastronomia')} primary={false} />
+            <BlogPostCTA label="Ver mais restaurantes" onClick={() => onNavigate('gastronomia')} primary={true} />
           </div>
         </section>
 
@@ -3521,6 +3596,7 @@ function BlogPage({ onOpenDetail, onNavigate, activeArticle, onSelectArticle }: 
             <div className="prose prose-xl prose-penedo max-w-none text-gray-600 mb-4 md:mb-8 text-left">
               <p>Penedo, RJ, é um destino que realmente encanta e oferece experiências únicas para todos os tipos de viajantes. Seja para uma escapada romântica a dois, férias em família com muita diversão na natureza ou até mesmo um bate-volta para recarregar as energias, este pedacinho da Finlândia na serra fluminense tem tudo para tornar sua viagem inesquecível.</p>
               <p>Com sua atmosfera acolhedora, paisagens deslumbrantes e uma gastronomia de dar água na boca, <strong>Penedo RJ</strong> espera por você!</p>
+              <p className="text-gray-400 text-sm mt-6 italic">Publicado em 20/06/2026.</p>
             </div>
           </div>
         </section>
@@ -3610,7 +3686,10 @@ function BlogPage({ onOpenDetail, onNavigate, activeArticle, onSelectArticle }: 
               <div className="p-10 flex-grow flex flex-col justify-between">
                 <div>
                   <h3 className="text-2xl font-black text-penedo-forest mb-4 tracking-tighter leading-tight group-hover:text-penedo-emerald transition-colors">{post.title}</h3>
-                  <p className="text-gray-500 text-sm leading-relaxed mb-4 md:mb-8">{post.description}</p>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-4 md:mb-8">
+                    {post.description}
+                    {post.date && ` Publicado em ${post.date}.`}
+                  </p>
                 </div>
                 <div className="w-full py-4 bg-gray-50 rounded-2xl flex items-center justify-center gap-3 text-penedo-emerald font-black text-xs uppercase tracking-widest group-hover:bg-penedo-emerald group-hover:text-white transition-all shadow-sm">
                   Ler artigo completo <ArrowRight size={18} />

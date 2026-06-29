@@ -299,6 +299,7 @@ export function RestaurantesArticle({ handleSelectArticle }: RestaurantesArticle
             <p className="text-lg leading-relaxed">
               Mais do que simples refeições, os renomados restaurantes de Penedo proporcionam momentos especiais em família ou a dois, unindo sabores autênticos, hospitalidade serrana exemplar e cenários inesquecíveis.
             </p>
+            <p className="text-gray-400 text-sm mt-6 italic">Publicado em 22/06/2026.</p>
           </div>
           
           <div className="mb-4 md:mb-8 md:mb-16 rounded-[3rem] overflow-hidden shadow-2xl relative w-full h-96 md:h-[32rem]">

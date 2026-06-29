@@ -24,6 +24,7 @@ export interface DetailItem {
   link_video?: string;
   link_booking?: string;
   tag_destaque?: string;
+  date?: string;
 }
 
 export type Page = 'home' | 'o-que-fazer' | 'onde-ficar' | 'gastronomia' | 'compras' | 'blog' | 'contato' | 'premium-detail';

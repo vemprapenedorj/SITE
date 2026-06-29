@@ -81,7 +81,7 @@ export function Carousel({
           {onNavigate && (
             <button 
               onClick={onNavigate}
-              className="hidden sm:flex items-center gap-2 text-penedo-emerald font-bold hover:gap-3 transition-all"
+              className="hidden sm:flex items-center gap-2 text-penedo-emerald font-bold hover:gap-3 transition-all cursor-pointer"
             >
               Ver tudo <ChevronRight size={20} />
             </button>
