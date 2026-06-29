@@ -9,6 +9,7 @@ import {
   X, 
   ArrowRight, 
   ChevronRight, 
+  ChevronLeft, 
   Phone, 
   Instagram, 
   Facebook, 
@@ -2106,29 +2107,31 @@ function PremiumDetailPage({ slug, onNavigate }: { slug: string, onNavigate: (pa
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-sm select-none"
+            className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm select-none"
             onClick={() => setSelectedImgIndex(null)}
           >
-            {/* Close Button */}
-            <button
-              onClick={() => setSelectedImgIndex(null)}
-              className="absolute top-6 right-6 text-white hover:text-penedo-gold transition-colors z-50 p-2 bg-black/50 hover:bg-black/80 rounded-full cursor-pointer flex items-center justify-center"
-            >
-              <X size={32} />
-            </button>
-
-            {/* Carousel Navigation Wrapper */}
-            <div 
-              className="relative max-w-5xl max-h-[85vh] w-full h-full flex items-center justify-center"
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              className="relative max-w-7xl max-h-[90vh] w-full h-full flex items-center justify-center"
               onClick={e => e.stopPropagation()}
             >
+              {/* Close Button */}
+              <button
+                onClick={() => setSelectedImgIndex(null)}
+                className="absolute -top-12 right-0 md:-right-10 text-white hover:text-penedo-gold transition-colors z-50 p-2 bg-black/50 rounded-full cursor-pointer flex items-center justify-center"
+              >
+                <X size={32} />
+              </button>
+
               {/* Left Arrow */}
               <button
                 onClick={(e) => {
                   e.stopPropagation();
                   setSelectedImgIndex(prev => prev !== null ? (prev === 0 ? galleryImages.length - 1 : prev - 1) : null);
                 }}
-                className="absolute left-2 md:-left-16 text-white hover:text-penedo-gold transition-all z-50 p-3 bg-black/40 hover:bg-black/70 rounded-full cursor-pointer hover:scale-110 flex items-center justify-center"
+                className="absolute left-4 md:-left-16 text-white hover:text-penedo-gold transition-all z-50 p-3 bg-black/40 hover:bg-black/70 rounded-full cursor-pointer hover:scale-110 flex items-center justify-center"
               >
                 <ChevronLeft size={36} />
               </button>
@@ -2145,7 +2148,7 @@ function PremiumDetailPage({ slug, onNavigate }: { slug: string, onNavigate: (pa
                 <img 
                   src={galleryImages[selectedImgIndex]} 
                   alt={`${item.title} ampliada ${selectedImgIndex + 1}`} 
-                  className="max-w-full max-h-[80vh] object-contain rounded-2xl shadow-2xl border-4 border-white/10"
+                  className="max-w-full max-h-[85vh] object-contain rounded-xl shadow-2xl border-4 border-white/10"
                 />
               </motion.div>
 
@@ -2155,29 +2158,11 @@ function PremiumDetailPage({ slug, onNavigate }: { slug: string, onNavigate: (pa
                   e.stopPropagation();
                   setSelectedImgIndex(prev => prev !== null ? (prev === galleryImages.length - 1 ? 0 : prev + 1) : null);
                 }}
-                className="absolute right-2 md:-right-16 text-white hover:text-penedo-gold transition-all z-50 p-3 bg-black/40 hover:bg-black/70 rounded-full cursor-pointer hover:scale-110 flex items-center justify-center"
+                className="absolute right-4 md:-right-16 text-white hover:text-penedo-gold transition-all z-50 p-3 bg-black/40 hover:bg-black/70 rounded-full cursor-pointer hover:scale-110 flex items-center justify-center"
               >
                 <ChevronRight size={36} />
               </button>
-            </div>
-
-            {/* Pagination Indicators */}
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-50">
-              {galleryImages.map((_, idx) => (
-                <button
-                  key={idx}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setSelectedImgIndex(idx);
-                  }}
-                  className={`w-2.5 h-2.5 rounded-full transition-all duration-300 cursor-pointer ${
-                    idx === selectedImgIndex 
-                      ? 'bg-penedo-gold w-6' 
-                      : 'bg-white/40 hover:bg-white/70'
-                  }`}
-                />
-              ))}
-            </div>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
