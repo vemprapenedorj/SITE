@@ -1253,10 +1253,61 @@ function FeaturedCard(props: { item: DetailItem, onClick: () => void }) {
   );
 }
 
+const parseHash = (): { page: Page; premiumSlug: string | null; blogArticle: string | null } => {
+  const hash = window.location.hash || '#/';
+  
+  if (hash === '#/' || hash === '#') {
+    return { page: 'home', premiumSlug: null, blogArticle: null };
+  }
+  
+  if (hash.startsWith('#/detalhe/')) {
+    const slug = hash.replace('#/detalhe/', '');
+    return { page: 'premium-detail', premiumSlug: slug, blogArticle: null };
+  }
+  
+  if (hash.startsWith('#/blog/artigo/')) {
+    const slug = hash.replace('#/blog/artigo/', '');
+    return { page: 'blog', premiumSlug: null, blogArticle: slug };
+  }
+  
+  if (hash === '#/blog') {
+    return { page: 'blog', premiumSlug: null, blogArticle: null };
+  }
+  
+  const pageName = hash.replace('#/', '') as Page;
+  const validPages: Page[] = ['home', 'o-que-fazer', 'onde-ficar', 'gastronomia', 'compras', 'blog', 'contato', 'premium-detail'];
+  if (validPages.includes(pageName)) {
+    return { page: pageName, premiumSlug: null, blogArticle: null };
+  }
+  
+  return { page: 'home', premiumSlug: null, blogArticle: null };
+};
+
+const updateHash = (page: Page, premiumSlug: string | null, blogArticle: string | null) => {
+  let hash = '';
+  if (page === 'home') {
+    hash = '#/';
+  } else if (page === 'premium-detail' && premiumSlug) {
+    hash = `#/detalhe/${premiumSlug}`;
+  } else if (page === 'blog') {
+    if (blogArticle) {
+      hash = `#/blog/artigo/${blogArticle}`;
+    } else {
+      hash = `#/blog`;
+    }
+  } else {
+    hash = `#/${page}`;
+  }
+  
+  if (window.location.hash !== hash) {
+    window.location.hash = hash;
+  }
+};
+
 export default function App() {
-  const [currentPage, setCurrentPage] = useState<Page>('home');
-  const [selectedPremiumSlug, setSelectedPremiumSlug] = useState<string | null>(null);
-  const [activeBlogArticle, setActiveBlogArticle] = useState<string | null>(null);
+  const [currentPage, setCurrentPage] = useState<Page>(() => parseHash().page);
+  const [selectedPremiumSlug, setSelectedPremiumSlug] = useState<string | null>(() => parseHash().premiumSlug);
+  const [activeBlogArticle, setActiveBlogArticle] = useState<string | null>(() => parseHash().blogArticle);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [showCookies, setShowCookies] = useState(false);
@@ -1275,6 +1326,24 @@ export default function App() {
     
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Listen to browser Back/Forward navigation (hash changes)
+  useEffect(() => {
+    const handleHashChange = () => {
+      const route = parseHash();
+      setCurrentPage(route.page);
+      setSelectedPremiumSlug(route.premiumSlug);
+      setActiveBlogArticle(route.blogArticle);
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  // Synchronize state changes to URL hash
+  useEffect(() => {
+    updateHash(currentPage, selectedPremiumSlug, activeBlogArticle);
+  }, [currentPage, selectedPremiumSlug, activeBlogArticle]);
 
   // Efeito robusto para garantir que a página sempre suba ao topo em trocas de página ou artigos
   useEffect(() => {
